@@ -33,11 +33,11 @@ app.config['SESSION_COOKIE_HTTPONLY'] = True
 app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
 
 # ============== بيانات المسؤول ==============
-ADMIN_USERNAME = "GJWMSOS"
-ADMIN_PASSWORD_RAW = "GJWMSOS"
+ADMIN_USERNAME = "8075573334"
+ADMIN_PASSWORD_RAW = "8075573334"
 
 # ============== إعدادات البوت والإشعارات ==============
-BOT_TOKEN = "8949342425:AAFC2htoFDXgvuWIYU9rCrgITvVh7e0tCk0"
+BOT_TOKEN = "8669754436:AAG-XGfy4I_-X5FKDMb5DMDzhnowT3-wnSE"
 ADMIN_TELEGRAM_ID = 8394089237
 ADMIN_TELEGRAM_USERNAME = "@K_I_G_M"
 

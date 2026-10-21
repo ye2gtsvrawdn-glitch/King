@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 𝙺𝙸𝙽𝙶 𝙼𝙾𝙳 - مشغّل بوت تليجرام
-طُوِّر بواسطة: @RIKOSS_1
+طُوِّر بواسطة: @K_I_G_M
 """
 
 import sys
@@ -22,22 +22,22 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         "/start - عرض هذه الرسالة\n"
         "/help - الحصول على المساعدة\n"
         "/info - معلومات البوت\n\n"
-        "🛠 طُوِّر بواسطة: @RIKOSS_1"
+        "🛠 طُوِّر بواسطة: @K_I_G_M"
     )
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(
         "📚 المساعدة:\n\n"
         "هذا البوت يعمل بشكل مستمر على خادم 𝙼𝙴𝚁𝙾 𝙷𝙾𝚂𝚃\n"
-        "للاشتراك أو الاستفسار: @RIKOSS_1"
+        "للاشتراك أو الاستفسار: @K_I_G_M"
     )
 
 async def info_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(
         "ℹ️ معلومات البوت:\n\n"
-        "🤖 الخدمة: 𝑅𝐼𝐾𝑂 𝙼𝙾𝙳\n"
+        "🤖 الخدمة: 𝙺𝙸𝙽𝙶 𝙼𝙾𝙳\n"
         "✅ الحالة: نشط ومستمر\n"
-        "🛠 المطور: @RIKOSS_1"
+        "🛠 المطور: @K_I_G_M"
     )
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -45,7 +45,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     await update.message.reply_text(
         f"📨 تم استقبال رسالتك:\n\n{user_message}\n\n"
         "شكراً لاستخدامك 𝙼𝙴𝚁𝙾 𝙷𝙾𝚂𝚃!\n"
-        "🛠 @RIKOSS_1"
+        "🛠 @I_tt_6"
     )
 
 async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -54,7 +54,7 @@ async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> N
 def run_bot(token: str, bot_name: str) -> None:
     try:
         print("\n" + "═"*60)
-        print(f" 🤖 𝑅𝐼𝐾𝑂 𝙼𝙾𝙳 - جاري تشغيل البوت: {bot_name}")
+        print(f" 🤖 𝙺𝙸𝙽𝙶 𝙼𝙾𝙳 - جاري تشغيل البوت: {bot_name}")
         print(" 🚀 يتم الآن الاتصال بخوادم تليجرام...")
         print("═"*60 + "\n")
         application = Application.builder().token(token).build()

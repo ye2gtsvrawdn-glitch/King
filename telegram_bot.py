@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 𝙺𝙸𝙽𝙶 𝙼𝙾𝙳 - بوت التحكم الكامل مع دعم PHP و Python و Node.js
-طُوِّر بواسطة: ᗴᒪᗰOᗪᗰᗴᑎ | @RIKOSS_1
+طُوِّر بواسطة: ᗴᒪᗰOᗪᗰᗴᑎ | @K_I_G_M
 """
 
 import os
@@ -13,14 +13,14 @@ from telegram.ext import (
 )
 
 # ========== إعدادات البوت ==========
-BOT_TOKEN = "8967838287:AAFDO9aQR3NcvBiGPSmzTwMBFPq_911cc80"
+BOT_TOKEN = "8107118673:AAG6xUifqFD5qtCWZMy_D9qEmC8HOCx4DBo"
 API_BASE_URL = os.environ.get("API_BASE_URL", "https://mero-host.onrender.com")
 
 # إيدي الأدمن على تليجرام
 ADMIN_TELEGRAM_IDS = [8394089237]
 
 # معلومات المطور
-DEVELOPER_INFO = "🛠 طُوِّر بواسطة: *𝑅𝐼𝐾𝑂 𝙼𝙾𝙳*\n📬 تواصل: @RIKOSS_1"
+DEVELOPER_INFO = "🛠 طُوِّر بواسطة: *𝙺𝙸𝙽𝙶 𝙼𝙾𝙳*\n📬 تواصل: @K_I_G_M"
 
 # ========== حالات المحادثة ==========
 (
